@@ -19,6 +19,16 @@ let myObj{
 } // this is object stored in a variable myObj
 
 const myFunction = function(){} // this is basics syntex of function, 
- 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack and heap memory
+//stack (primitive) and heap (non primitive)
+
+/* in Stack we do changes in a copy but in heap we do changes in orginal values
+like we assign variable1 to variable2, then change values of within variable2
+*/
+
 
 
