@@ -20,7 +20,18 @@ console.log(hundereds.toLocaleString('en-IN')); // 10,00,000 indian style like l
 
 // ++++++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++
 //console.log(Math);
-console.log(Math.abs(14))  // absolute value
-console.log(Math.round(4.6)) // it will round off the value to 5
-console.log(Math.ceil(3.2)) // this will give 4, it will get top value
-console.log(Math.floor(3.9)) // this will give 3, it will get floor value
+console.log(Math.abs(14))       // absolute value
+console.log(Math.round(4.6))    // it will round off the value to 5
+console.log(Math.ceil(3.2))     // this will give 4, it will get top value
+console.log(Math.floor(3.9))    // this will give 3, it will get floor value
+
+// About random number, like in dice game
+console.log(Math.random()) ;                //each it will give diffrent value between 0-1 i.e 0.23671
+console.log(Math.random()*10) +1            // this will give value between 1-10 with decimal number
+console.log(Math.floor(Math.random()*10)+1) // this will floor number without decimal
+
+// some time need to define min and max, like number between 10-20
+const min= 10
+const max = 20
+console.log(Math.floor(Math.random()*(max-min+1))+min) // this will give values between 10-20 with decimal
+// Note: rememeber the above formula will use in daily life use
