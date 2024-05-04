@@ -28,7 +28,7 @@ console.log(Math.floor(3.9))    // this will give 3, it will get floor value
 // About random number, like in dice game
 console.log(Math.random()) ;                //each it will give diffrent value between 0-1 i.e 0.23671
 console.log(Math.random()*10) +1            // this will give value between 1-10 with decimal number
-console.log(Math.floor(Math.random()*10)+1) // this will floor number without decimal
+console.log(Math.floor(Math.random()*10)+1) // this will give floor number without decimal
 
 // some time need to define min and max, like number between 10-20
 const min= 10
