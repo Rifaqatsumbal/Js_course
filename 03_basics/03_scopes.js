@@ -11,3 +11,10 @@ if(true){
 //console.log(a)
 //console.log(b)
 console.log(c)                          // this can be accessed outside the scope which is not good
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Nested Scope
+// functions within function or condition within conditions we called it nested scope
+// In nested scope child can access parent variables. 
+// We can not access a variable outside its scop, in simple outside {} of the scope. 
