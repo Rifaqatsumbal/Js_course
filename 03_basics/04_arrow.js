@@ -34,5 +34,5 @@ console.log(addTwo(3,4))
 const addTwoNew = (num1, num2) => (num1 + num2)
 console.log(addTwoNew(4,5))
 
-// Note: If you use {} then you will return return keyword, if you use parenthsis then no need to write return
+// Note: If you use {} then you will write return keyword, if you use parenthsis then no need to write return
 // to return object we will write, const addTwoNew = (num1, num2) => ({username: "Rifa"})
